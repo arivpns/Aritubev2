@@ -70,7 +70,7 @@ exec(`cd /sdcard/download && play *mp3`)
    
    arietube.on('chat-update', async (mek) => {
         require('./arietube.js')(arietube, mek)
-        ownerNumber = ["6288245009287@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        ownerNumber = ["6285828357727@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
         dtod = "6282252509320@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
